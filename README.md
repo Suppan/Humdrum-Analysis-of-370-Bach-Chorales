@@ -10,13 +10,13 @@
 
 The analysis via humdrum/ terminal is focused on seven voice leading fields/topics:
 
-1. Perfect/diminished fifth (`/Analysis/res1a/+b`)
-2. Hidden unison/fifth/octaves `(/Analysis/res2a/+b+c)`
-3. Consecutive fifths `(/Analysis/res3a/+b)`
-4. Consecutive octaves `(/Analysis/res4a/+b+c+d)`
-5. Parallel fifths  `(/Analysis/res5/)`
-6. Parallel octaves `(/Analysis/res6/)`
-7. Melodic Intervals `(/Analysis/res5/)`
+1. Perfect/diminished fifth (`/res1a/+b`)
+2. Hidden unison/fifth/octaves `(/res2a/+b+c)`
+3. Consecutive fifths `(/res3a/+b)`
+4. Consecutive octaves `(res4a/+b+c+d)`
+5. Parallel fifths  `(/res5/)`
+6. Parallel octaves `(/res6/)`
+7. Melodic Intervals `(/res5/)`
 
 The results inside the folders should help to get an authenic view on the choral writing by J.S. Bach. Never the less, it is necessary to interpret the results and determine what rules for voice leading make sense in which combination (i.e., bass-soprano).
 
