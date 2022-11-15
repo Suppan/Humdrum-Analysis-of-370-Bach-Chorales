@@ -620,7 +620,7 @@ humcat h://370chorales | extract -f 3 | serialize | mint | ridx -H | grep -v r |
 humcat h://370chorales | extract -f 4 | serialize | mint | ridx -H | grep -v r | grep -v '[[]' | sortcount -t 
 ```
 
-*output (collected):*
+*table:*
 
 
 | Bass | Tenor | Alto | Soprano |
