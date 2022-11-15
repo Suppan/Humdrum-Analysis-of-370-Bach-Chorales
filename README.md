@@ -18,8 +18,6 @@ The analysis via humdrum/ terminal is focused on seven voice leading fields/topi
 6. Parallel octaves `(/res6/)`
 7. Melodic Intervals `(/res5/)`
 
-The results inside the folders should help to get an authenic view on the choral writing by J.S. Bach. Never the less, it is necessary to interpret the results and determine what rules for voice leading make sense in which combination (i.e., bass-soprano).
-
 ============================================================================
 
 The state of the project is still **in progress** and needs additional examination and checks...
