@@ -29,7 +29,7 @@ The state of the project is still **in progress** and needs additional examinati
 
 
 1. Just looking at the results:
-   - just drag an drop the kern files (*.krn) into [verovio.humdrum](https://verovio.humdrum.org/) to see thew analys results (in red colour)
+   - download the folders and just drag an drop the kern files (*.krn) into [verovio.humdrum](https://verovio.humdrum.org/) to see thew analys results (in red colour)
 
 2. Eval humdrum code via terminal:
    - install humdrum https://github.com/humdrum-tools/humdrum-tools
