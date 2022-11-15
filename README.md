@@ -533,7 +533,7 @@ array2=("bass,tenor" "bass,alto" "bass,soprano" "tenor,alto" "tenor,soprano" "al
 for ((i=1; i<=${#array1[@]}; i++)); do 
    echo "${array1[$i]}:"
    echo "${array2[$i]}:"
-   var2=$(cint h://370chorales --12 -t --search "^7.[^0].[^0].7$"  -k "${array1[$i]}" --count)
+   var2=$(cint h://370chorales --chromatic -tUo --search "^p5\s-?\w\d\s-?\w\d\sp5$"  -k "${array1[$i]}" --count)
    echo "p5/p5: $var2 times\n"
 done
 ```
@@ -542,23 +542,23 @@ done
 
 1,2:
 bass,tenor:
-p5/p5: 1 times
+p5/p5: 2 times
 
 1,3:
 bass,alto:
-p5/p5: 0 times
+p5/p5: 2 times
 
 1,4:
 bass,soprano:
-p5/p5: 0 times
+p5/p5: 4 times
 
 2,3:
 tenor,alto:
-p5/p5: 3 times
+p5/p5: 5 times
 
 2,4:
 tenor,soprano:
-p5/p5: 1 times
+p5/p5: 13 times
 
 3,4:
 alto,soprano:
@@ -576,7 +576,7 @@ array2=("bass,tenor" "bass,alto" "bass,soprano" "tenor,alto" "tenor,soprano" "al
 for ((i=1; i<=${#array1[@]}; i++)); do 
    echo "${array1[$i]}:"
    echo "${array2[$i]}:"
-   var2=$(cint h://370chorales --12 -t --search "^12.[^0].[^0].12$"  -k "${array1[$i]}" --count)
+   var2=$(cint h://370chorales --chromatic -tUo --search "^p8\s-?\w\d\s-?\w\d\sp8$"  -k "${array1[$i]}" --count)
    echo "p8/p8: $var2 times\n"
 done
 ```
@@ -585,11 +585,11 @@ done
 
 1,2:
 bass,tenor:
-p8/p8: 2 times
+p8/p8: 3 times
 
 1,3:
 bass,alto:
-p8/p8: 2 times
+p8/p8: 3 times
 
 1,4:
 bass,soprano:
@@ -601,7 +601,7 @@ p8/p8: 0 times
 
 2,4:
 tenor,soprano:
-p8/p8: 2 times
+p8/p8: 3 times
 
 3,4:
 alto,soprano:
