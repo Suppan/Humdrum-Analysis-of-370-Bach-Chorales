@@ -58,7 +58,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -101,7 +101,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -144,7 +144,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*res2a:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -187,7 +187,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -230,7 +230,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -273,7 +273,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -316,7 +316,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -359,7 +359,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 
 1,2:
@@ -405,7 +405,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -448,7 +448,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -491,7 +491,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 
 1,2:
@@ -536,7 +536,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -579,7 +579,7 @@ for ((i=1; i<=${#array1[@]}; i++)); do
 done
 ```
 
-*result:*
+*output:*
 
 1,2:
 bass,tenor:
@@ -620,7 +620,7 @@ humcat h://370chorales | extract -f 3 | serialize | mint | ridx -H | grep -v r |
 humcat h://370chorales | extract -f 4 | serialize | mint | ridx -H | grep -v r | grep -v '[[]' | sortcount -t 
 ```
 
-*result:*
+*output:*
 
 
 | Bass | Tenor | Alto | Soprano |
