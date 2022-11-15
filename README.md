@@ -8,7 +8,7 @@
 
 
 
-The analysis via humdrum/ terminal is focused on seven voice leading fields/topics:
+The analysis via humdrum/terminal is focused on seven voice leading fields/topics:
 
 1. Perfect/diminished fifth (`/res1a/+b`)
 2. Hidden unison/fifth/octaves `(/res2a/+b+c)`
