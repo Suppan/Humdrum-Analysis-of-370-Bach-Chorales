@@ -34,6 +34,8 @@ The state of the project is still **in progress** and needs additional examinati
 2. Eval humdrum code via terminal:
    - install humdrum https://github.com/humdrum-tools/humdrum-tools
    - get the source files (the 370 chorales in kern format): https://github.com/craigsapp/bach-370-chorales/tree/master/kern 
+   - cd the kern folder
+   - paste the code into the terminal
 
 
 
