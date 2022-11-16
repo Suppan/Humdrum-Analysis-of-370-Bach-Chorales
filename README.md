@@ -42,7 +42,7 @@ The state of the project is still **in progress** and needs additional examinati
    - cd the kern folder
    - paste the code into the terminal
 
-3. Save the kern files with color marks:
+3. Save the humdrum files with color marks:
 
 ```shell 
 for FILE in *.krn; do
