@@ -58,7 +58,7 @@ done
 ```
 *(the code for saving the files in folder 'res1a')*
 
-create the folder '/res1a' first:
+create the empty folder '/res1a' first:
 
 <div align="center"><img src="/resources/save.png" width="500px"</img></div>  
 
