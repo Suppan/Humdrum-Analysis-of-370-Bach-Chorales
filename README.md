@@ -29,13 +29,31 @@ The state of the project is still **in progress** and needs additional examinati
 
 
 1. Just looking at the results:
-   - download the folders and just drag an drop the kern files (*.krn) onto [verovio.humdrum](https://verovio.humdrum.org/) to see the analys results in red colour.
+   - download the folders and just drag an drop the kern files (*.krn) onto [verovio.humdrum](https://verovio.humdrum.org/) to see the analys results in red color.
 
 2. Eval humdrum code via terminal:
    - install humdrum https://github.com/humdrum-tools/humdrum-tools
    - get the source files (the 370 chorales in kern format): https://github.com/craigsapp/bach-370-chorales/tree/master/kern 
    - cd the kern folder
    - paste the code into the terminal
+
+3. Save the kern files (with color marks)
+
+i.e the code for saving the files in folder 'res1a':
+
+```shell 
+for FILE in *.krn; do
+  var=$(cint $FILE --chromatic --search '^p5.[^0].[^0].d5$' --count | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  cint $FILE --chromatic --search "^p5.[^0].[^0].d5$" > ../analysis/res1a/$var$end1$name$end 
+  fi
+done
+```
+
 
 
 
