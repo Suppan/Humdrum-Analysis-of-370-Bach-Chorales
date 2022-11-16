@@ -54,7 +54,7 @@ done
 *(the code for saving the files in folder 'res1a')*
 
 
-<div align="center"><img src="/resources/save.png" width="300px"</img></div>  
+<div align="center"><img src="/resources/save.png" width="600px"</img></div>  
 
 
 
