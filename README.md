@@ -33,6 +33,8 @@ The state of the project is still **in progress** and needs additional examinati
 
 <div align="center"><img src="/resources/res5_chor008.png" width="1100px"</img></div>  
 
+*(file 4-times_chor008.krn in folder 'res5')*
+
 
 2. Eval humdrum code via terminal:
    - install humdrum https://github.com/humdrum-tools/humdrum-tools
