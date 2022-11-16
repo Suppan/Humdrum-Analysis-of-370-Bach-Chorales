@@ -29,7 +29,7 @@ The state of the project is still **in progress** and needs additional examinati
 
 
 1. Just looking at the results:
-   - download the folders and just drag & drop the kern files (*.krn) into [verovio.humdrum](https://verovio.humdrum.org/) to see the analys results in red color.
+   - download the folders and just drag & drop the humdrum files (*.krn) into [verovio.humdrum](https://verovio.humdrum.org/) to see the analys results in red color.
 
 <div align="center"><img src="/resources/res5_chor008.png" width="1100px"</img></div>  
 
