@@ -37,9 +37,7 @@ The state of the project is still **in progress** and needs additional examinati
    - cd the kern folder
    - paste the code into the terminal
 
-3. Save the kern files (with color marks)
-
-i.e the code for saving the files in folder 'res1a':
+3. Save the kern files with color marks:
 
 ```shell 
 for FILE in *.krn; do
@@ -49,11 +47,11 @@ for FILE in *.krn; do
   name=$(basename $FILE .krn)
   end1='-times_'
   end='.krn'
-  cint $FILE --chromatic --search "^p5.[^0].[^0].d5$" > ../analysis/res1a/$var$end1$name$end 
+  cint $FILE --chromatic --search "^p5.[^0].[^0].d5$" > ../res1a/$var$end1$name$end 
   fi
 done
 ```
-
+(the code for saving the files in folder 'res1a')
 
 
 # Analysis
