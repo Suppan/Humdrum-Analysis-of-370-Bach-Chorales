@@ -679,4 +679,4 @@ humcat h://370chorales | extract -f 4 | serialize | mint | ridx -H | grep -v r |
 
 ----
 
-[^1]: to run the code inside the terminal, you need to install humdrum first! 
+[^1]: to run the code inside the terminal you have to install humdrum first! 
