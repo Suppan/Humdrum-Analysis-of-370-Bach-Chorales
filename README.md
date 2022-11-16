@@ -10,13 +10,13 @@
 
 The analysis via humdrum/terminal is focused on seven voice leading fields/topics:
 
-1. Perfect/diminished fifth (`/res1 a+b`)
-2. Hidden unison/fifth/octaves `(/res2 a+b+c)`
-3. Consecutive fifths `(/res3 a+b)`
-4. Consecutive octaves `(res4 a+b+c+d)`
-5. Parallel fifths  `(/res5)`
-6. Parallel octaves `(/res6)`
-7. Melodic Intervals `(/res7)`
+1. Perfect/diminished fifth `res1 (a+b)`
+2. Hidden unison/fifth/octaves `res2 (a+b+c)`
+3. Consecutive fifths `res3 (a+b)`
+4. Consecutive octaves `res4 (a+b+c+d)`
+5. Parallel fifths  `res5`
+6. Parallel octaves `res6`
+7. Melodic Intervals `res7`
 
 ============================================================================
 
