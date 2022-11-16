@@ -51,7 +51,11 @@ for FILE in *.krn; do
   fi
 done
 ```
-(the code for saving the files in folder 'res1a')
+*(the code for saving the files in folder 'res1a')*
+
+
+
+
 
 
 # Analysis
