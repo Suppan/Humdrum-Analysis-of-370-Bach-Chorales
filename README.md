@@ -31,7 +31,7 @@ The state of the project is still **in progress** and needs additional examinati
 1. Just looking at the results:
    - download the folders and just drag an drop the kern files (*.krn) onto [verovio.humdrum](https://verovio.humdrum.org/) to see the analys results in red color.
 
-<div align="center"><img src="/resources/res5_chor008.png" width="500px"</img></div>  
+<div align="center"><img src="/resources/res5_chor008.png" width="800px"</img></div>  
 
 
 2. Eval humdrum code via terminal:
