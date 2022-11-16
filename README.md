@@ -60,7 +60,7 @@ done
 
 create the empty folder '/res1a' first:
 
-<div align="center"><img src="/resources/save.png" width="500px"</img></div>  
+<div align="center"><img src="/resources/save.png" width="300px"</img></div>  
 
 
 
