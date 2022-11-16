@@ -20,7 +20,7 @@ The analysis via humdrum/terminal is focused on seven voice leading fields/topic
 
 ============================================================================
 
-The state of the project is still **in progress** and needs additional examination and checks...
+The state of the project is still **in progress** and needs additional checks...
 
 ============================================================================ 
 
