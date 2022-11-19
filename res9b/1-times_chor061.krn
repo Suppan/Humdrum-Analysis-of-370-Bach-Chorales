@@ -1,0 +1,146 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/02/21/-1750/07/28/
+!!!OTL@@DE: Jesu Leiden, Pein und Tod
+!!!SCT: BWV 159/5
+!!!PC#: 61
+!!!AGN: chorale
+**kern	**kern	**kern	**kern	**qual
+*ICvox	*ICvox	*ICvox	*ICvox	*ICvox
+*Ibass	*Itenor	*Ialto	*Isoprn	*
+*I"Bass	*I"Tenor	*I"Alto	*I"Soprano	*
+*clefF4	*clefGv2	*clefG2	*clefG2	*
+*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]
+*E-:	*E-:	*E-:	*E-:	*E-:
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM100	*MM100	*MM100	*MM100	*MM100
+=1-	=1-	=1-	=1-	=1-
+4E-	4B-	4e-	4g	maj:0:E-
+4BB-	8B-L	4d	4f	maj:0:B-
+.	8A-J	.	.	dom7:0:B-
+4C	4G	8dL	4e-	X[cde-g]
+.	.	8cJ	.	min:0:C
+4D	4F	8cL	4f	minmin7x5:0:D
+.	.	8B-J	.	maj:1:B-
+=2	=2	=2	=2	=2
+4E-	8E-L	4B-	4g	maj:0:E-
+.	8e-J	.	.	maj:0:E-
+4F	8e-L	4A-	4a-	minmin7x5:0:F
+.	8d-J	.	.	maj:1:D-
+2G;	2d-;	2e-;	2b-;	dom7:1:E-
+=3	=3	=3	=3	=3
+4A-	4c	8e-L	4cc	maj:0:A-
+.	.	8a-J	.	incmaj:0:A-
+4B-	4dnX	8a-L	4b-	dom7x5:0:B-
+.	.	8gJ	.	min:1:G
+4c	8e-L	8gL	4a-	majmaj7:1:A-
+.	8dJ	8fJ	.	halfdim7:3:D
+8B-L	8e-L	4e-	8gL	maj:2:E-
+8A-J	8cJ	.	8fJ	minmin7:1:F
+=4	=4	=4	=4	=4
+4B-	4.B-	4e-	2f	X[e-fb-]
+4BB-	.	4d	.	maj:0:B-
+.	8A-	.	.	dom7:0:B-
+2E-;	2G;	2B-;	2e-;	maj:0:E-
+=5	=5	=5	=5	=5
+8E-L	4B-	4e-	4g	maj:0:E-
+8DJ	.	.	.	majmaj7:3:E-
+8DL	4B-	4f	4b-	maj:1:B-
+8CJ	.	.	.	X[cfb-]
+[2C	8cL	8e-L	4a-	maj:1:A-
+.	8dJ	8fJ	.	halfdim7:3:D
+.	8e-L	8gL	4g	min:0:C
+.	8cJ	8e-J	.	min:0:C
+=6	=6	=6	=6	=6
+8CL]	8A-L	4d	4f	halfdim7:3:D
+8BBJ	8GJ	.	.	dom7:1:G
+8CL	4G	4c	4e-	min:0:C
+8E-J	.	.	.	min:1:C
+2G;	2G;	2B;	2d;	maj:0:G
+=7	=7	=7	=7	=7
+8CL	4G	4c	4e-	min:0:C
+8cJ	.	.	.	min:2:C
+8B-XL	4B-X	4d	4f	maj:0:B-
+8A-J	.	.	.	dom7:3:B-
+8GL	4B-	4e-	4g	maj:1:E-
+8FJ	.	.	.	X[e-fgb-]
+8E-L	4B-	[4e-	4g	maj:0:E-
+8DJ	.	.	.	majmaj7:3:E-
+=8	=8	=8	=8	=8
+8CL	8cL	8e-L]	2a-	maj:1:A-
+8F	8A-	16dL	.	dim:1:D
+.	.	16e-JJ	.	minmin7x5:0:F
+8D	8F	8fL	.	dim:0:D
+8BB-J	8B-J	8dJ	.	dom7x5:0:B-
+2E-;	2B-;	2e-;	2g;	maj:0:E-
+=9	=9	=9	=9	=9
+4C	4c	4e-	4g	min:0:C
+8BB-L	4c	4e-	4a-	X[ce-a-b-]
+8AA-J	.	.	.	maj:0:A-
+8GG@	4B-@	4e@	4b-@	dim:1:E
+4G	.	.	.	dim:1:E
+.	4c	4f	4a-	X[cfga-]
+[8F	.	.	.	min:0:F
+=10	=10	=10	=10	=10
+8FL]	4B-	8d-L	4g	halfdim7:3:G
+8EJ	.	8cJ	.	dom7:1:C
+4F	4A-	8cL	4f	min:0:F
+.	.	8dJ	.	dim:1:D
+2C;	2G;	2e;	2g;	maj:0:C
+=11	=11	=11	=11	=11
+8FL	8A-L	4c	4f	min:0:F
+8GJ	8B-J	.	.	X[cfgb-]
+4A-	8cL	8cL	4f	min:1:F
+.	8B-J	8dJ	.	dom7:3:B-
+4G	4.B-	4e-	8gL	maj:1:E-
+.	.	.	8aJ	X[e-gab-]
+4G-	.	8d-L	4b-	maj:0:G-
+.	8c	8e-J	.	halfdim7:2:C
+=12	=12	=12	=12	=12
+8FL	4d-	2f	4b-	min:2:B-
+8E-J	.	.	.	X[d-e-fb-]
+4F	4c	.	4a	maj:0:F
+2BB-;	2d;	2f;	2b-;	maj:0:B-
+=13	=13	=13	=13	=13
+8DL	4B-	4f	4b-	maj:1:B-
+8BB-J	.	.	.	incmajx3:0:B-
+4E-	4B-	8e-L	4g	maj:0:E-
+.	.	8fJ	.	X[e-fgb-]
+8E-L	4e-	4g	4cc	min:1:C
+8CJ	.	.	.	min:0:C
+4G	8dL	4g	4b-	min:0:G
+.	8B-J	.	.	incmin:0:G
+=14	=14	=14	=14	=14
+8GL	8cL	8e-L	4a-	majmaj7:3:A-
+8FJ	8dJ	8fJ	.	dim:1:D
+8GL	4e-	8B-L	4g	maj:1:E-
+8A-J	.	8cJ	.	majmaj7:0:A-
+2B-;	2B-;	2d;	2f;	maj:0:B-
+=15	=15	=15	=15	=15
+4.E-	8B-L	4.e-	8gL	maj:0:E-
+.	8A-J	.	8a-J	incmajx3:1:A-
+.	8GL	.	4b-	maj:0:E-
+8D	8FJ	8B-	.	maj:1:B-
+4C	8E-L	8e-L	4a-	maj:1:A-
+.	8DJ	8fJ	.	halfdim7:3:D
+8BB-L	4E-	8gL	8gL	maj:2:E-
+8AA-J	.	8cJ	8fJ	minmin7:1:F
+=16	=16	=16	=16	=16
+2BB-	4.B-	8dL	2f	maj:0:B-
+.	.	16e-L	.	X[e-fb-]
+.	.	16cJJ	.	X[cfb-]
+.	.	4d	.	maj:0:B-
+.	8A-	.	.	dom7:0:B-
+2EE-;	2G;	2B-;	2e-;	maj:0:E-
+==	==	==	==	==
+*-	*-	*-	*-	*-
+!!!hum2abc: -Q ''
+!!!title: @{PC#}. @{OTL@@DE}
+!!!YOR1: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach,
+!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und H&auml;rtel,
+!!!YOR2: c.1875). 178 pp. Plate "V.A.10".  reprint: J.S. Bach, 371 Four-Part
+!!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
+!!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
+!!!EED:  Craig Stuart Sapp
+!!!EEV:  2009/05/22
+!!!RDF**kern: @ = matched note, color="#ff0000"

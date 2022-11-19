@@ -1,0 +1,136 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/02/21/-1750/07/28/
+!!!OTL@@DE: Was mein Gott will, das g'scheh allzeit
+!!!SCT: BWV 65/7
+!!!PC#: 41
+!!!AGN: chorale
+**kern	**kern	**kern	**kern	**qual
+*ICvox	*ICvox	*ICvox	*ICvox	*ICvox
+*Ibass	*Itenor	*Ialto	*Isoprn	*
+*I"Bass	*I"Tenor	*I"Alto	*I"Soprano	*
+*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]
+*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]
+*>A	*>A	*>A	*>A	*>A
+*clefF4	*clefGv2	*clefG2	*clefG2	*
+*k[]	*k[]	*k[]	*k[]	*k[]
+*a:	*a:	*a:	*a:	*a:
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM100	*MM100	*MM100	*MM100	*MM100
+4AA	4A	4c	4e	min:0:A
+=1	=1	=1	=1	=1
+4E	4B	8eL	4g	min:0:E
+.	.	8dJ	.	minmin7:0:E
+4F	8AL	8cL	4a	maj:0:F
+.	8BJ	8dJ	.	halfdim7:2:B
+8CL	4c	8eL	4g	maj:0:C
+8DJ	.	8fJ	.	X[cdfg]
+8EL	8cL	4g	4cc	maj:1:C
+8FJ	8dJ	.	.	X[cdfg]
+=2	=2	=2	=2	=2
+4G	8eL	4g	4cc	maj:2:C
+.	16dL	.	.	X[cdg]
+.	16cJJ	.	.	incmajx3:1:C
+4GG	4d	4g	4b	maj:0:G
+4C;	4e;	4g;	4cc;	maj:0:C
+4C	4e	4g	4cc	maj:0:C
+=3	=3	=3	=3	=3
+4G	4d	4g	4b	maj:0:G
+8DL	4d	8fL	4a	min:0:D
+8EJ	.	8gJ	.	X[dega]
+8FL	4A	2a	4.dd	min:1:D
+8GJ	.	.	.	X[dga]
+4A	[4e	.	.	X[dea]
+.	.	.	8cc	min:0:A
+=4	=4	=4	=4	=4
+8EL	4e]	4g#	4b	maj:0:E
+8D	.	.	.	dom7:3:E
+8C	4e	2a	4cc	min:1:A
+8AAJ	.	.	.	min:0:A
+2E	4.e	.	2b	X[eab]
+.	.	4g#	.	maj:0:E
+.	8d	.	.	dom7:0:E
+=5	=5	=5	=5	=5
+2.AA;	2.c;	2.e;	2.a;	min:0:A
+=:|!	=:|!	=:|!	=:|!	=:|!
+*>B	*>B	*>B	*>B	*>B
+8AL	8cL	4e	4a	min:0:A
+8GJ	8BJ	.	.	X[egab]
+=6	=6	=6	=6	=6
+4F#	4A	8dL	4a	maj:1:D
+.	.	8eJ	.	minmin7x5:0:F#
+8EL	4d	4f#	4a	X[def#a]
+8DJ	.	.	.	maj:0:D
+8GL	4.d	4.g	4.b	maj:0:G
+8D	.	.	.	maj:2:G
+8G	.	.	.	maj:0:G
+8F#J	8d#	8a	8a	dim:1:D#
+=7	=7	=7	=7	=7
+8EL	4e	4g	4b	min:0:E
+8BB	.	.	.	min:2:E
+8E	4B	4e	4g	min:0:E
+8DnXJ	.	.	.	minmin7:3:E
+8CL	4A	4e	4g	minmin7:1:A
+8AAJ	.	.	.	X[ega]
+4D	4A	4d	4f#	maj:0:D
+=8	=8	=8	=8	=8
+4GG;	4B;	4d;	4g;	maj:0:G
+4C	4c	4e	4g	maj:0:C
+8cL	4A	4f#	4a	dim:1:F#
+8BJ	.	.	.	X[f#ab]
+8AL	4d	4f	4b	halfdim7:3:B
+8G#J	.	.	.	fulldim7:0:G#
+=9	=9	=9	=9	=9
+4A	8cL	8eL	4cc	min:0:A
+.	8dJ	8f#J	.	dom7:2:D
+8EL	4e	4g#	4b	maj:0:E
+8DJ	.	.	.	dom7:3:E
+8CL	8eL	4.a	2a	min:1:A
+8BBJ	8d	.	.	minmin7x5:0:B
+4AA	8c	.	.	incmin:0:A
+.	8F#J	8d#	.	dim:2:D#
+=10	=10	=10	=10	=10
+4E;	4G#;	4e;	4b;	maj:0:E
+4E	8GL	4B	8eL	min:0:E
+.	8AJ	.	8f#J	X[ef#ab]
+4E	4B	4e	4gnX	min:0:E
+4D#	4c	4f#	4a	fulldim7:0:D#
+=11	=11	=11	=11	=11
+4E	4B	4e	4g	min:0:E
+8AL	4c	4e	4cc	min:0:A
+8GJ	.	.	.	maj:2:C
+4F#	4d	4a	4cc	dom7:1:D
+4G	4d	4g	4b	maj:0:G
+=12	=12	=12	=12	=12
+4C;	4e;	4g;	4cc;	maj:0:C
+4AA	4e	4a	4cc	min:0:A
+8DL	8fL	8aL	4b	halfdim7:1:B
+8EJ	8eJ	8gJ	.	min:0:E
+4F	8eL	8gL	4a	X[efga]
+.	8dJ	8fJ	.	min:1:D
+=13	=13	=13	=13	=13
+8BBL@	8dL@	4.f@	4.dd@	dim:0:B
+8CJ	8c	.	.	minmin7x5:2:D
+4D	8B	.	.	dim:1:B
+.	8AJ	8e	8cc	X[cdea]
+8GG#L	[2e	4d	4b	dom7:1:E
+8E	.	.	.	X[deb]
+8C	.	8cL	4cc	incmaj:0:C
+8AAJ	.	8dJ	.	X[cdea]
+=14	=14	=14	=14	=14
+2E	8eL]	2e	2b	incmajx3:0:E
+.	8AJ	.	.	X[eab]
+.	4G#	.	.	maj:0:E
+4AA;	4c#;	4e;	4a;	maj:0:A
+==	==	==	==	==
+*-	*-	*-	*-	*-
+!!!hum2abc: -Q ''
+!!!title: @{PC#}. @{OTL@@DE}
+!!!YOR1: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach,
+!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und H&auml;rtel,
+!!!YOR2: c.1875). 178 pp. Plate "V.A.10".  reprint: J.S. Bach, 371 Four-Part
+!!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
+!!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
+!!!EED:  Craig Stuart Sapp
+!!!EEV:  2009/05/22
+!!!RDF**kern: @ = matched note, color="#ff0000"
