@@ -1,0 +1,78 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/02/21/-1750/07/28/
+!!!OTL@@DE: Christus, der ist mein Leben
+!!!SCT: BWV 281
+!!!PC#: 6
+!!!AGN: chorale
+**kern	**kern	**kern	**kern	**qual
+*ICvox	*ICvox	*ICvox	*ICvox	*ICvox
+*Ibass	*Itenor	*Ialto	*Isoprn	*
+*I"Bass	*I"Tenor	*I"Alto	*I"Soprano	*
+*clefF4	*clefGv2	*clefG2	*clefG2	*
+*k[b-]	*k[b-]	*k[b-]	*k[b-]	*k[b-]
+*F:	*F:	*F:	*F:	*F:
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM100	*MM100	*MM100	*MM100	*MM100
+4FF	4A	4c	4f	maj:0:F
+=1	=1	=1	=1	=1
+4F	4c	4f	4a	maj:0:F
+4E	4c	4g	4g	maj:1:C
+4E-@	4c@	4f@	4a@	dom7:3:F
+4D	4d	4f	4b-	maj:1:B-
+=2	=2	=2	=2	=2
+8CL	4G	8eL	2cc	maj:0:C
+8D	.	8f	.	X[cdfg]
+8E	4c	8g	.	maj:1:C
+8CJ	.	8eJ	.	incmaj:0:C
+4F;	4c;	4f;	4a;	maj:0:F
+4BB-	4B-	4f	4dd	maj:0:B-
+=3	=3	=3	=3	=3
+4AA	4c	4.f	4cc	maj:1:F
+4GG	8dL	.	4b-	minmin7:0:G
+.	8B-J	8e	.	dim:1:E
+8FFL	4c	4.f	4a	maj:0:F
+8AAJ	.	.	.	maj:1:F
+4C	4c	.	4g	X[cfg]
+.	.	8e	.	maj:0:C
+=4	=4	=4	=4	=4
+2FF;	2c;	2f;	2a;	maj:0:F
+4r	4ry	4ry	4r	::
+4A	4f	[4a	4cc	maj:1:F
+=5	=5	=5	=5	=5
+4BB	4f	8aL]	4dd	halfdim7:0:B
+.	.	[8gJ	.	dom7:1:G
+4C	[4e	8gL]	4ee	maj:0:C
+.	.	16ccL	.	incmaj:0:C
+.	.	16b-XJJ	.	dom7x5:0:C
+8DL	8eL]	4a	4ff	X[defa]
+8FJ	8dJ	.	.	min:1:D
+8AL	[4c	4a	4ee	min:0:A
+8GJ	.	.	.	minmin7:3:A
+=6	=6	=6	=6	=6
+8FL	4c]	4a	2dd	minmin7:1:D
+8DJ	.	.	.	X[cda]
+4G	4B	4g	.	maj:0:G
+4C;	4e;	4g;	4cc;	maj:0:C
+4FF	4c	[4f	4a	maj:0:F
+=7	=7	=7	=7	=7
+4GG	4B-X	8fL]	4b-	minmin7x5:0:G
+.	.	8eJ	.	dim:1:E
+4AA	4c	4f	4a	maj:1:F
+4BB-	4d	4f	4g	minmin7:1:G
+4C	8.cL	4e	4g	maj:0:C
+.	16B-Jk	.	.	dom7:0:C
+=8	=8	=8	=8	=8
+2.FF;	2.A;	2.c;	2.f;	maj:0:F
+==	==	==	==	==
+*-	*-	*-	*-	*-
+!!!hum2abc: -Q ''
+!!!title: @{PC#}. @{OTL@@DE}
+!!!YOR1: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach,
+!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und H&auml;rtel,
+!!!YOR2: c.1875). 178 pp. Plate "V.A.10".  reprint: J.S. Bach, 371 Four-Part
+!!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
+!!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
+!!!EED:  Craig Stuart Sapp
+!!!EEV:  2021/01/06
+!!!RDF**kern: @ = matched note, color="#ff0000"
