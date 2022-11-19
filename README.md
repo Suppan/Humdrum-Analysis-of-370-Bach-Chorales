@@ -16,9 +16,9 @@ The analysis via humdrum/terminal is focused on voice leading and appearance of 
 4. Consecutive octaves `res4 (a+b+c+d)`
 5. Parallel fifths  `res5`
 6. Parallel octaves `res6`
-7. Major/Minor chord: 2nd inversion `res7 (a+b)`
+7. Triad chord: 2nd inversion: Major/Minor `res7 (a+b)`
 8. Dominant seventh: root position,1st,2nd,3rd inversion `res8 (a+b+c+d)`
-9. Diminished chord: root position,1st,2nd inversion `res9 (a+b+c)`
+9. Diminished triad chord: root position,1st,2nd inversion `res9 (a+b+c)`
 10. Melodic Intervals `res7`
 
 ============================================================================
@@ -640,7 +640,7 @@ alto,soprano:
 p8/p8: 0 times
 
 
-## • res7a: Major chord 2nd inversion
+## • res7a: Triad chord 2nd inversion major
 
 Code (terminal):
 ```shell
@@ -666,7 +666,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 done
 ```
 
-## • res7b: Minor chord 2nd inversion
+## • res7b: Triad chord 2nd inversion minor
 
 Code (terminal):
 ```shell
@@ -796,7 +796,7 @@ done
 ```
 
 
-## • res9a: Diminished chord root position
+## • res9a: Diminished triad chord root position
 
 Code (terminal):
 ```shell
@@ -822,7 +822,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 done
 ```
 
-## • res9b: Diminished chord 1st inversion
+## • res9b: Diminished triad chord 1st inversion
 
 Code (terminal):
 ```shell
@@ -848,7 +848,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 done
 ```
 
-## • res9c: Diminished chord 2nd inversion
+## • res9c: Diminished triad chord 2nd inversion
 
 Code (terminal):
 ```shell
