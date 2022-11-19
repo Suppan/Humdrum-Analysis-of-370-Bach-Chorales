@@ -8,7 +8,7 @@
 
 
 
-The analysis via humdrum/terminal is focused on seven voice leading fields/topics:
+The analysis via humdrum/terminal is focused on voice leading and appearance of certain chords:
 
 1. Perfect/diminished fifth `res1 (a+b)`
 2. Hidden unison/fifth/octaves `res2 (a+b+c)`
@@ -16,7 +16,10 @@ The analysis via humdrum/terminal is focused on seven voice leading fields/topic
 4. Consecutive octaves `res4 (a+b+c+d)`
 5. Parallel fifths  `res5`
 6. Parallel octaves `res6`
-7. Melodic Intervals `res7`
+7. Major/Minor chord: 2nd inversion `res7 (a+b)`
+8. Dominant seventh: root position,1st,2nd,3rd inversion `res8 (a+b+c+d)`
+9. Diminished chord: root position,1st,2nd inversion `res9 (a+b+c)`
+10. Melodic Intervals `res7`
 
 ============================================================================
 
@@ -637,9 +640,243 @@ alto,soprano:
 p8/p8: 0 times
 
 
+## • res7a: Major chord 2nd inversion
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^maj:2:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^maj:2:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' > res7a/$var$end1$name$end
+  fi
+done
+```
+
+## • res7b: Minor chord 2nd inversion
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^min:2:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^min:2:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res7b/$var$end1$name$end
+  fi
+done
+```
+
+## • res8a: Dominant seventh root position
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^dom7:0:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^dom7:0:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res8a/$var$end1$name$end
+  fi
+done
+```
+
+## • res8b: Dominant seventh 1st inversion
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^dom7:1:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^dom7:1:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res8b/$var$end1$name$end
+  fi
+done
+```
+## • res8c: Dominant seventh 2nd inversion
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^dom7:2:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^dom7:2:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' > res8c/$var$end1$name$end
+  fi
+done
+```
+
+## • res8d: Dominant seventh 3rd inversion
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^dom7:3:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^dom7:3:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  /res8d/$var$end1$name$end
+  fi
+done
+```
 
 
-## • res7: melodic intervals (statistical appearance)
+## • res9a: Diminished chord root position
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^dim:0:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^dim:0:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res9a/$var$end1$name$end
+  fi
+done
+```
+
+## • res9b: Diminished chord 1st inversion
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^dim:1:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^dim:1:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res9b/$var$end1$name$end
+  fi
+done
+```
+
+## • res9c: Diminished chord 2nd inversion
+
+Code (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^dim:2:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^dim:2:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res9b/$var$end1$name$end
+  fi
+done
+```
+
+
+
+## • res10: melodic intervals (statistical appearance)
 
 Code (terminal):
 
