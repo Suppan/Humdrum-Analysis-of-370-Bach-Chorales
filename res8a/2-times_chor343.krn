@@ -1,0 +1,160 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/02/21/-1750/07/28/
+!!!OTL@@DE: Nun lieget alles unter dir
+!!!SCT: BWV 11/6
+!!!PC#: 343
+!!!AGN: chorale
+**kern	**kern	**kern	**kern	**qual
+*ICvox	*ICvox	*ICvox	*ICvox	*ICvox
+*Ibass	*Itenor	*Ialto	*Isoprn	*
+*I"Bass	*I"Tenor	*I"Alto	*I"Soprano	*
+*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]
+*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]
+*>A	*>A	*>A	*>A	*>A
+*clefF4	*clefGv2	*clefG2	*clefG2	*
+*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]
+*D:	*D:	*D:	*D:	*D:
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*MM100	*MM100	*MM100	*MM100	*MM100
+=1-	=1-	=1-	=1-	=1-
+8DL	4F#	4A	4d	maj:0:D
+8C#J	.	.	.	majmaj7:3:D
+4BB	8F#L	4d	4d	min:0:B
+.	8DJ	.	.	incmin:0:B
+4AA	4A	8dL	4e	X[dea]
+.	.	8c#J	.	maj:0:A
+=2	=2	=2	=2	=2
+4.D	8AL	2d	4.f#	maj:0:D
+.	8F#J	.	.	incmaj:0:D
+.	4B	.	.	min:1:B
+8E	.	.	8g#	dom7:0:E
+4F#	4A	8c#L	4a	min:0:F#
+.	.	8AJ	.	incmin:0:F#
+=3	=3	=3	=3	=3
+8DL	4B	4f#	2a	minmin7:1:B
+8BBJ	.	.	.	X[f#ab]
+4E	8BL	2e	.	X[eab]
+.	8c#J	.	.	maj:2:A
+4EE	4d	.	4g#	dom7x5:0:E
+=4	=4	=4	=4	=4
+2AA;	2c#;	2e;	2a;	maj:0:A
+4D	4A	8dL	4f#	maj:0:D
+.	.	8c#J	.	majmaj7:0:D
+=5	=5	=5	=5	=5
+4E	4G	8BL	2g	min:0:E
+.	.	8c#J	.	dim:1:C#
+4.F#	8AL	[2d	.	X[df#ga]
+.	8GJ	.	.	X[df#g]
+.	[4A	.	4f#	maj:1:D
+8G	.	.	.	X[df#ga]
+=6	=6	=6	=6	=6
+8AL	4.A]	8dL]	2e	X[dea]
+8GJ	.	16c#L	.	dom7:3:A
+.	.	16BJJ	.	X[egab]
+4F#	.	4c#	.	minmin7:0:F#
+.	8G	.	.	X[c#ef#g]
+8BL	4F#	[4d	4d	min:2:B
+8AJ	.	.	.	maj:1:D
+=7	=7	=7	=7	=7
+8GL	4B	4d]	2.e	minmin7:1:E
+8EJ	.	.	.	X[deb]
+4A	4.A	8c#L	.	maj:0:A
+.	.	8BJ	.	X[eab]
+4AA	.	4c#	.	maj:0:A
+.	8G	.	.	dom7:0:A
+=8	=8	=8	=8	=8
+2.DD;	2.F#;	2.A;	2.d;	maj:0:D
+=9:|!	=9:|!	=9:|!	=9:|!	=9:|!
+*>B	*>B	*>B	*>B	*>B
+4AA	8AL	8c#L	4e	maj:0:A
+.	8G#J	8BJ	.	X[eg#ab]
+8AL	4A	4.c#	4e	maj:0:A
+8GJ	.	.	.	dom7:3:A
+4F#	4A	.	4f#	min:0:F#
+.	.	8d#	.	dim:1:D#
+=10	=10	=10	=10	=10
+4.E	8BL	4e	2g	min:0:E
+.	8AJ	.	.	X[ega]
+.	2G	4B	.	min:0:E
+8DnXL	.	.	.	maj:2:G
+8C	.	[4e	4g	maj:0:C
+8BBJ	.	.	.	min:2:E
+=11	=11	=11	=11	=11
+8AAL	4c	4e]	4.f#	halfdim7:1:F#
+8FF#J	.	.	.	X[cef#]
+4BB	4.B	8d#L	.	maj:0:B
+.	.	8c#XJ	8e	minmin7x5:2:C#
+4BB	.	4d#	4f#	maj:0:B
+.	8A	.	.	dom7:0:B
+=12	=12	=12	=12	=12
+2.EE;	2.G;	2.B;	2.e;	min:0:E
+=13	=13	=13	=13	=13
+8BBL	4B	4d#	4f#	maj:0:B
+8C#XJ	.	.	.	X[c#d#f#b]
+4D#	8F#L	4B	4f#	maj:1:B
+.	8GJ	.	.	X[d#f#gb]
+4BB@	8AL@	4d#@	4f#@	dom7:0:B
+.	8BJ	.	.	maj:0:B
+=14	=14	=14	=14	=14
+4.E	8GL	4e	4.g	incmin:0:E
+.	8F#J	.	.	X[ef#g]
+.	4E	4B	.	min:0:E
+8F#L	.	.	8a	X[ef#ab]
+8G	8eL	4B	4b	min:1:E
+8F#J	8dnXJ	.	.	min:2:B
+=15	=15	=15	=15	=15
+8EL	4.c#	8gL	2b	halfdim7:1:C#
+8DJ	.	8f#J	.	X[c#df#b]
+4C#	.	8eL	.	minmin7x5:0:C#
+.	8B	8dJ	.	X[c#db]
+4F#@	4c#@	4e@	4a#@	dom7:0:F#
+=16	=16	=16	=16	=16
+2BB;	2B;	2d;	2b;	incmin:0:B
+4F#	4A#	4f#	4cc#	maj:0:F#
+=17	=17	=17	=17	=17
+4.B	4.B	8f#L	4dd	min:0:B
+.	.	8eJ	.	X[deb]
+.	.	2d	2f#	min:0:B
+8AnXL	8F#	.	.	maj:1:D
+8G	8BL	.	.	majmaj7:0:G
+8F#J	8AJ	.	.	maj:1:D
+=18	=18	=18	=18	=18
+8EL	8GL	8c#L	2g	dim:1:C#
+8DJ	8F#J	8dJ	.	X[df#g]
+4C#	8E	4e	.	dim:0:C#
+.	4A	.	.	dom7:1:A
+4D	.	[4d	4f#	maj:0:D
+.	8G#	.	.	X[df#g#]
+=19	=19	=19	=19	=19
+4AA	4A	8dL]	4e	X[dea]
+.	.	8BJ	.	X[eab]
+4AA;	4A;	4c#;	4e;	maj:0:A
+4FF#	4A	4d	4a	maj:1:D
+=20	=20	=20	=20	=20
+4.GG	8GL	4d	4.b	maj:0:G
+.	8AJ	.	.	X[dgab]
+.	8BL	8gL	.	incmaj:0:G
+8AA	8c#J	8f#J	8a	min:1:F#
+8BBL	8dL	8eL	4g	minmin7:2:E
+8C#J	8AJ	8dJ	.	X[c#dga]
+=21	=21	=21	=21	=21
+8DL	8AL	4.d	8f#L	maj:0:D
+8GGJ	8BJ	.	8eJ	minmin7:1:E
+2AA	4A	.	4.e	X[dea]
+.	.	8B	.	X[eab]
+.	4G	4c#	.	dom7:0:A
+.	.	.	8d	X[c#dga]
+=22	=22	=22	=22	=22
+2.DD;	2.F#;	2.A;	2.d;	maj:0:D
+==	==	==	==	==
+*-	*-	*-	*-	*-
+!!!hum2abc: -Q ''
+!!!title: @{PC#}. @{OTL@@DE}
+!!!YOR1: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach,
+!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und H&auml;rtel,
+!!!YOR2: c.1875). 178 pp. Plate "V.A.10".  reprint: J.S. Bach, 371 Four-Part
+!!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
+!!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
+!!!EED:  Craig Stuart Sapp
+!!!EEV:  2009/05/22
+!!!RDF**kern: @ = matched note, color="#ff0000"
