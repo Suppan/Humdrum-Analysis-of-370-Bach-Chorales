@@ -1,0 +1,134 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/02/21/-1750/07/28/
+!!!OTL@@DE: Aus meines Herzens Grunde
+!!!OTL@EN:      From the Depths of My Heart
+!!!SCT: BWV 269
+!!!PC#: 1
+!!!AGN: chorale
+**kern	**kern	**kern	**kern	**qual
+*ICvox	*ICvox	*ICvox	*ICvox	*ICvox
+*Ibass	*Itenor	*Ialto	*Isoprn	*
+*I"Bass	*I"Tenor	*I"Alto	*I"Soprano	*
+*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]
+*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]	*>norep[A,B]
+*>A	*>A	*>A	*>A	*>A
+*clefF4	*clefGv2	*clefG2	*clefG2	*
+*k[f#]	*k[f#]	*k[f#]	*k[f#]	*k[f#]
+*G:	*G:	*G:	*G:	*G:
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*MM100	*MM100	*MM100	*MM100	*MM100
+4GG	4B	4d	4g	maj:0:G
+=1	=1	=1	=1	=1
+4G	4B	4d	2g	maj:0:G
+4E	8cL	4e	.	maj:1:C
+.	8BJ	.	.	min:0:E
+4F#	4A	4d	4dd	maj:1:D
+=2	=2	=2	=2	=2
+4G	4G	2d	4.b	maj:0:G
+4D	4F#	.	.	min:1:B
+.	.	.	8a	maj:0:D
+4E	4G	4B	4g	min:0:E
+=3	=3	=3	=3	=3
+4C	8cL	8eL	4.g	maj:0:C
+.	8BJ	8d	.	X[cdgb]
+8BBL	4c	8e	.	majmaj7:3:C
+8AAJ	.	8f#J	8a	dim:1:F#
+4GG	4d	4g	4b	maj:0:G
+=4	=4	=4	=4	=4
+2D;	2d;	2f#;	2a;	maj:0:D
+4GG	4d	4g	4b	maj:0:G
+=5	=5	=5	=5	=5
+4FF#	4A	4d	2dd	maj:1:D
+4GG	4B	4e	.	minmin7:1:E
+4AA@	4c@	4f#@	4cc@	dim:1:F#
+=6	=6	=6	=6	=6
+4BB	4d	2g	4b	maj:1:G
+4C	4e	.	2a	minmin7:1:A
+4D	8dL	4f#	.	maj:0:D
+.	8cJ	.	.	dom7:0:D
+=7	=7	=7	=7	=7
+2GG;	2B;	2d;	2g;	maj:0:G
+=:|!	=:|!	=:|!	=:|!	=:|!
+*>B	*>B	*>B	*>B	*>B
+4GG	4d	[4g	4b	maj:0:G
+=8	=8	=8	=8	=8
+4GG	4d	8gL]	4b	maj:0:G
+.	.	8f#J	.	majmaj7:0:G
+4AA	4c	8eL	4cc	min:0:A
+.	.	8f#J	.	dim:1:F#
+4BB	8BL	[4g	4dd	maj:1:G
+.	8AJ	.	.	X[dgab]
+=9	=9	=9	=9	=9
+4.BB	8BL	8gL]	4.dd	maj:1:G
+.	8cJ	8aJ	.	X[cdab]
+.	4d	8gL	.	maj:1:G
+8AA	.	8f#J	8cc	dom7:2:D
+4GG	4d	4g	4b	maj:0:G
+=10	=10	=10	=10	=10
+2D;	2d;	2f#;	2a;	maj:0:D
+[4E	4B	4e	4g	min:0:E
+=11	=11	=11	=11	=11
+4E]	4G	4e	2b	min:0:E
+4D	4B	8f#L	.	min:1:B
+.	.	8gJ	.	maj:2:G
+4C	4e	4a	4cc	min:1:A
+=12	=12	=12	=12	=12
+4.BB	2d	4a	2dd	minmin7x5:0:B
+.	.	4.g	.	maj:1:G
+8C	.	.	.	X[cdg]
+4D	4d	.	4cc	X[cdg]
+.	.	8f#	.	dom7x5:0:D
+=13	=13	=13	=13	=13
+8GGL	2.d	2g	2.b	maj:0:G
+8AAJ	.	.	.	X[dgab]
+4BB	.	.	.	maj:1:G
+4GG	.	4f	.	dom7:0:G
+=14	=14	=14	=14	=14
+2C;	2c;	2e;	2g;	maj:0:C
+4GG	4d	4g	4b	maj:0:G
+=15	=15	=15	=15	=15
+4FF#	8dL	4.a	2dd	maj:1:D
+.	8cJ	.	.	dom7:1:D
+4GG	4B	.	.	X[dgab]
+.	.	8g	.	maj:0:G
+4AA@	4c@	4f#@	4cc@	dim:1:F#
+=16	=16	=16	=16	=16
+4BB	2d	2g	2b	maj:1:G
+4GG	.	.	.	maj:0:G
+4D	8dL	[4f#	4a	maj:0:D
+.	8cJ	.	.	dom7:0:D
+=17	=17	=17	=17	=17
+8EL	4B	8f#L]	4.g	X[ef#gb]
+8D	.	8eJ	.	minmin7:3:E
+8C	4c	8eL	.	maj:0:C
+8BB	.	8f#J	8a	X[cf#ab]
+8AA	4d	4g	4b	X[dgab]
+8GGJ	.	.	.	maj:0:G
+=18	=18	=18	=18	=18
+2D;	2d;	2f#;	2a;	maj:0:D
+[4G	4d	4g	4b	maj:0:G
+=19	=19	=19	=19	=19
+4G]	2d	2a	2dd	X[dga]
+4F#	.	.	.	maj:1:D
+[4E	4e	8gL	4cc	maj:1:C
+.	.	8f#J	.	X[cef#]
+=20	=20	=20	=20	=20
+8EL]	2e	2g	4b	min:0:E
+8DJ	.	.	.	minmin7:3:E
+4C	.	.	2a	minmin7:1:A
+4D	8dL	4f#	.	maj:0:D
+.	8cJ	.	.	dom7:0:D
+=21	=21	=21	=21	=21
+2GG;	2B;	2d;	2g;	maj:0:G
+==	==	==	==	==
+*-	*-	*-	*-	*-
+!!!hum2abc: -Q ''
+!!!title: @{PC#}. @{OTL@@DE}
+!!!YOR1: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach,
+!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und H&auml;rtel,
+!!!YOR3: c.1875). 178 pp. Plate "V.A.10".  reprint: J.S. Bach, 371 Four-Part
+!!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
+!!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
+!!!EED:  Craig Stuart Sapp
+!!!EEV:  2009/05/22
+!!!RDF**kern: @ = matched note, color="#ff0000"
