@@ -19,7 +19,7 @@ The analysis via humdrum/terminal is focused on voice leading and appearance of 
 7. Triad chord: 2nd inversion: Major/Minor `res7 (a+b)`
 8. Dominant seventh: root position,1st,2nd,3rd inversion `res8 (a+b+c+d)`
 9. Diminished triad chord: root position,1st,2nd inversion `res9 (a+b+c)`
-10. Melodic Intervals `res7`
+10. Melodic Intervals `res10`
 
 ============================================================================
 
