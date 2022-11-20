@@ -642,7 +642,7 @@ p8/p8: 0 times
 
 ## • res7a: Triad chord 2nd inversion major
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -668,7 +668,7 @@ done
 
 ## • res7b: Triad chord 2nd inversion minor
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -694,7 +694,7 @@ done
 
 ## • res8a: Dominant seventh root position
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -720,7 +720,7 @@ done
 
 ## • res8b: Dominant seventh 1st inversion
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -745,7 +745,7 @@ done
 ```
 ## • res8c: Dominant seventh 2nd inversion
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -771,7 +771,7 @@ done
 
 ## • res8d: Dominant seventh 3rd inversion
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -798,7 +798,7 @@ done
 
 ## • res9a: Diminished triad chord root position
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -824,7 +824,7 @@ done
 
 ## • res9b: Diminished triad chord 1st inversion
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -850,7 +850,7 @@ done
 
 ## • res9c: Diminished triad chord 2nd inversion
 
-Code (terminal):
+Code for file saving (terminal):
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
