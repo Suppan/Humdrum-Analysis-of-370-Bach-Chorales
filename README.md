@@ -45,7 +45,7 @@ The state of the project is still **in progress** and needs additional checks...
    - cd the kern folder
    - paste the code into the terminal
 
-3. Save the humdrum files with color marks:
+3. Save the humdrum files with color marks (for res1-6):
 
 ```shell 
 for FILE in *.krn; do
