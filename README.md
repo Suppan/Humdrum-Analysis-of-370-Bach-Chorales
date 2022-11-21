@@ -661,7 +661,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' > res7a/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' > ../res7a/$var$end1$name$end
   fi
 done
 ```
@@ -687,7 +687,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res7b/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res7b/$var$end1$name$end
   fi
 done
 ```
@@ -713,7 +713,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res8a/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res8a/$var$end1$name$end
   fi
 done
 ```
@@ -739,7 +739,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res8b/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res8b/$var$end1$name$end
   fi
 done
 ```
@@ -764,7 +764,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' > res8c/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' > ../res8c/$var$end1$name$end
   fi
 done
 ```
@@ -790,7 +790,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  /res8d/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res8d/$var$end1$name$end
   fi
 done
 ```
@@ -817,7 +817,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res9a/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res9a/$var$end1$name$end
   fi
 done
 ```
@@ -843,7 +843,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res9b/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res9b/$var$end1$name$end
   fi
 done
 ```
@@ -869,7 +869,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
 	else
 	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
-  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  res9b/$var$end1$name$end
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res9b/$var$end1$name$end
   fi
 done
 ```
@@ -946,4 +946,4 @@ humcat h://370chorales | extract -f 4 | serialize | mint | ridx -H | grep -v r |
 ----
 
 [^1]: to run the code inside the terminal you have to install humdrum first! 
-[^2]: create the folder 'res7a' first
+[^2]: create the folder 'res7a' (same level as the 'kern/' folder) first
