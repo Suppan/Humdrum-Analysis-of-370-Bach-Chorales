@@ -21,11 +21,11 @@ The analysis via humdrum/terminal is focused on voice leading and appearance of 
 9. Diminished triad chord: root position,1st,2nd inversion `res9 (a+b+c)`
 10. Melodic Intervals `res10`
 
-============================================================================
+==================================================================
 
 The state of the project is still **in progress** and needs additional checks...
 
-============================================================================ 
+==================================================================
 
 # Usage
 
