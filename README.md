@@ -642,7 +642,7 @@ p8/p8: 0 times
 
 ## • res7a: Triad chord 2nd inversion major
 
-Code for file saving (terminal):
+Code for file saving (terminal)[^2]:
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -946,3 +946,4 @@ humcat h://370chorales | extract -f 4 | serialize | mint | ridx -H | grep -v r |
 ----
 
 [^1]: to run the code inside the terminal you have to install humdrum first! 
+[^2]: create the folder 'res7a' first
