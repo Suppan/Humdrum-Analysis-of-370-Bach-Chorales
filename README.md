@@ -32,7 +32,7 @@ The state of the project is still **in progress** and needs additional checks...
 
 
 1. Just looking at the results:
-   - download the folders and just drag & drop the humdrum files (*.krn) into [verovio.humdrum](https://verovio.humdrum.org/) to see the analys results in red color.
+   - download the folders and just drag & drop the humdrum files (*.krn) into [verovio.humdrum](https://verovio.humdrum.org/) to see the analys results in red color.[^1]
 
 <div align="center"><img src="/resources/res5_chor008.png" width="1100px"</img></div>  
 
@@ -79,7 +79,7 @@ create the empty folder '/res1a' first:
 
 ## 1a: Perfect/diminished fifth (p5/d5)
 
-Code (terminal)[^1]
+Code (terminal)[^2]
 
 ```shell 
 array1=("1,2" "1,3" "1,4" "2,3" "2,4" "3,4")
@@ -642,7 +642,7 @@ p8/p8: 0 times
 
 ## • res7a: Triad chord 2nd inversion major
 
-Code for file saving (terminal)[^2]:
+Code for file saving (terminal)[^3]:
 ```shell
 for FILE in *.krn; do
 var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
@@ -944,6 +944,6 @@ humcat h://370chorales | extract -f 4 | serialize | mint | ridx -H | grep -v r |
 
 
 ----
-
-[^1]: to run the code inside the terminal you have to install humdrum first! 
-[^2]: create the folder 'res7a' (same level as the 'kern/' folder) first
+[^1]: to view the choral on 2 systems use the filter 'satb2gs' inside the VerovioHumdrumViewer
+[^2]: to run the code inside the terminal you have to install humdrum first! 
+[^3]: create the folder 'res7a' (same level as the 'kern/' folder) first
