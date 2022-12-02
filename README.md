@@ -19,7 +19,8 @@ The analysis via humdrum/terminal is focused on voice leading and appearance of 
 7. Triad chord: 2nd inversion: Major/Minor `res7 (a+b)`
 8. Dominant seventh chord: root position,1st,2nd,3rd inversion `res8 (a+b+c+d)`
 9. Diminished triad chord: root position,1st,2nd inversion `res9 (a+b+c)`
-10. Melodic Intervals `res10`
+10. Augmented triad chord: root position,1st inversion `res10 (a+b)`
+11. Melodic Intervals `res11`
 
 ==================================================================
 
@@ -874,9 +875,61 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 done
 ```
 
+## • res10a: Augmented triad chord root
+
+Code for file saving (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^aug:0:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^aug:0:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res10a/$var$end1$name$end
+  fi
+done
+```
 
 
-## • res10: melodic intervals (statistical appearance)
+## • res10b: Augmented triad chord 2st inversion
+
+Code for file saving (terminal):
+```shell
+for FILE in *.krn; do
+var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
+	else
+	if ($5 ~ /^aug:1:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	count+=1
+} END {print count}' | grep '[1-9]')
+  if [[ ! -z "$var" ]] 
+  then
+  name=$(basename $FILE .krn)
+  end1='-times_'
+  end='.krn'
+  sonority -aU $FILE | awk  '{ if($0 ~/^[!*=]/) {print $0}
+	else
+	if ($5 ~ /^aug:1:/ && $1 ~ /[^.]/ && $2 ~ /[^.]/ && $3 ~ /[^.]/ && $4 ~ /[^.]/)
+	{print $1"\@" "\t" $2"\@" "\t" $3"\@" "\t" $4"\@" "\t" $5}
+	else
+	{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5}
+  } END {print "!!!RDF**kern: @ = matched note, color=\"#ff0000\""}' >  ../res10b/$var$end1$name$end
+  fi
+done
+```
+
+
+## • res11: melodic intervals (statistical appearance)
 
 Code (terminal):
 
