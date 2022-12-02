@@ -1,0 +1,112 @@
+!!!COM: Bach, Johann Sebastian
+!!!CDT: 1685/02/21/-1750/07/28/
+!!!OTL@@DE: Vater unser im Himmelreich
+!!!SCT: BWV 102/7
+!!!PC#: 110
+!!!AGN: chorale
+**kern	**kern	**kern	**kern	**qual
+*ICvox	*ICvox	*ICvox	*ICvox	*ICvox
+*Ibass	*Itenor	*Ialto	*Isoprn	*
+*I"Bass	*I"Tenor	*I"Alto	*I"Soprano	*
+*clefF4	*clefGv2	*clefG2	*clefG2	*
+*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]
+*c:dor	*c:dor	*c:dor	*c:dor	*c:dor
+*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
+*MM100	*MM100	*MM100	*MM100	*MM100
+4C	4c	4e-	4g	min:0:C
+=1	=1	=1	=1	=1
+4BB	4G	4d	4g	maj:1:G
+4C	4G	4c	4e-	min:0:C
+4A-	4c	8cL	4f	min:1:F
+.	.	8dJ	.	halfdim7:2:D
+8E-L	8cL	8e-L	8gL	min:1:C
+8FJ	8A-XJ	8dJ	8fJ	dim:1:D
+=2	=2	=2	=2	=2
+4G	4G	4c	4e-	min:2:C
+4GG	8GL	4B	4d	maj:0:G
+.	8FJ	.	.	dom7:0:G
+4C;	4E-;	4G;	4c;	min:0:C
+4c	4c	4e-	4g	min:0:C
+=3	=3	=3	=3	=3
+8GL	4B-X	4e-	4g	maj:1:E-
+8A-J	.	.	.	X[e-ga-b-]
+4B-	4B-	8dL	4f	maj:0:B-
+.	.	8e-J	.	X[e-fb-]
+4D	4B-	4f	4b-	maj:1:B-
+4E-	4B-	8e-L	8gL	maj:0:E-
+.	.	8dJ	8fJ	X[de-fb-]
+=4	=4	=4	=4	=4
+4A-	4c	8cL	4e-	maj:0:A-
+.	.	8BJ	.	X[ce-a-b]
+4AA-X	4A-X	8cL	4f	min:1:F
+.	.	8dJ	.	dim:2:D
+4GG;	4D;	4B;	4g;	maj:0:G
+4C	4c	4e-	8gL	min:0:C
+.	.	.	8anXJ	dim:1:A
+=5	=5	=5	=5	=5
+4G	4B-	4d	4b-	min:0:G
+4F	4A-	8e-L	8ccL	minmin7:0:F
+.	.	8fJ	8ddJ	dim:1:D
+4E-	4G	4g	4ee-	incmaj:0:E-
+8FL	8AL	4f	4dd	min:1:D
+8GJ	8BJ	.	.	dom7:0:G
+=6	=6	=6	=6	=6
+4A-	4c	8e-L	4cc	maj:0:A-
+.	.	8fJ	.	min:1:F
+4G	4d	4g	4b	maj:0:G
+4C;	4e-;	4g;	4cc;	min:0:C
+4F	4A	4f	4cc	maj:0:F
+=7	=7	=7	=7	=7
+4B-X	4B-X	4f	4dd	maj:0:B-
+4A	4c	4f#	4cc	dim:1:F#
+4G	4d	4g	4b-X	min:0:G
+8CL	8e-L	8gL	4a	halfdim7:1:A
+8DJ	8dJ	8f#XJ	.	maj:0:D
+=8	=8	=8	=8	=8
+4E-	8dL	4g	4g	X[de-g]
+.	8cJ	.	.	min:1:C
+4D	8cL	4f#	4a	dom7:0:D
+.	8BJ	.	.	minmin7:1:B
+4GG;	4B;	4d;	4g;	maj:0:G
+8FL	4A	4f	4cc	maj:0:F
+8E-J	.	.	.	dom7:3:F
+=9	=9	=9	=9	=9
+4D	4B-X	4f	4b-	maj:1:B-
+4C	4c	4e-	4a	dim:1:A
+4BB-	4F	4d	8b-L	maj:0:B-
+.	.	.	8a-J	dom7:0:B-
+8CL	4E-	8e-L	4g	min:0:C
+8BB-J	.	8dJ	.	majmaj7:2:E-
+=10	=10	=10	=10	=10
+4AA-	4E-	4c	4g	majmaj7:0:A-
+4BB-	8B-L	4d	4f	maj:0:B-
+.	8A-XJ	.	.	dom7:0:B-
+4E-;	4G;	4B-;	4e-;	maj:0:E-
+4E	4c	4c	4g	maj:1:C
+=11	=11	=11	=11	=11
+4F	4c	4f	4a-	min:0:F
+4G@	4B@	8e-L@	8gL@	aug:1:E-
+.	.	8dJ	8fJ	dom7:0:G
+8A-L	8cL	4c	4e-X	maj:0:A-
+8GJ	8B-J	.	.	minmin7:2:C
+4F	4A-X	8dL	4f	dim:1:D
+.	.	8cJ	.	min:0:F
+=12	=12	=12	=12	=12
+4G@	4G@	8BL@	4e-@	aug:1:E-
+.	.	8cJ	.	min:2:C
+4GG	8GL	8cL	4d	X[cdg]
+.	8FJ	8BJ	.	dom7:0:G
+4C;	4E;	4G;	4c;	maj:0:C
+==	==	==	==	==
+*-	*-	*-	*-	*-
+!!!hum2abc: -Q ''
+!!!title: @{PC#}. @{OTL@@DE}
+!!!YOR1: 371 vierstimmige Choralges&auml;nge von Johann Sebastian Bach,
+!!!YOR2: 4th ed. by Alfred D&ouml;rffel (Leipzig: Breitkopf und H&auml;rtel,
+!!!YOR2: c.1875). 178 pp. Plate "V.A.10".  reprint: J.S. Bach, 371 Four-Part
+!!!YOR4: Chorales (New York: Associated Music Publishers, Inc., c.1940).
+!!!SMS: B&H, 4th ed, Alfred D&ouml;rffel, c.1875, plate V.A.10
+!!!EED:  Craig Stuart Sapp
+!!!EEV:  2009/05/22
+!!!RDF**kern: @ = matched note, color="#ff0000"
