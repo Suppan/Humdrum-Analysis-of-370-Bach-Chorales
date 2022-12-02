@@ -875,7 +875,7 @@ var=$(sonority -aU $FILE | awk 'BEGIN {count=0;}{ if($0 ~/^[!*=]/) {}
 done
 ```
 
-## • res10a: Augmented triad chord root
+## • res10a: Augmented triad chord root position
 
 Code for file saving (terminal):
 ```shell
