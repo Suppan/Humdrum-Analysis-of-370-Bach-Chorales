@@ -902,7 +902,7 @@ done
 ```
 
 
-## • res10b: Augmented triad chord 2st inversion
+## • res10b: Augmented triad chord 1st inversion
 
 Code for file saving (terminal):
 ```shell
