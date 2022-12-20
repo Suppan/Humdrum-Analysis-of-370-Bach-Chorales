@@ -22,6 +22,8 @@ The analysis via humdrum/terminal is focused on voice leading and appearance of 
 10. Augmented triad chord: root position,1st inversion `res10 (a+b)`
 11. Melodic Intervals `res11`
 
+Teachers or music theorists can get an insight in a short time into certain aspects of voice leading and the treatment of selected chords in J.S. Bach's chorales
+
 ==================================================================
 
 The state of the project is still **in progress** and needs additional checks...
